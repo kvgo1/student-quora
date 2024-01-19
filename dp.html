@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doubt Posting </title>
+    <link rel="stylesheet" href="doubt.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Doubt Posting System</h1>
+        <form id="doubtForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="doubt">Doubt:</label>
+            <textarea id="doubt" required></textarea>
+
+            <button type="button" onclick="postDoubt()">Post Doubt</button>
+        </form>
+
+        <ul id="doubtList"></ul>
+    </div>
+
+    <script src="posting.js"></script>
+</body>
+</html>
